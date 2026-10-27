@@ -1,0 +1,27 @@
+*, *::before, *::after { box-sizing: border-box; }
+body, h1, h2, h3, p, ul { margin: 0; }
+img { display: block; max-width: 100%; height: auto; }
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+header, main, footer {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+section { margin-top: 1.5rem; }
+h1, h2, h3 { margin-top: 1rem; }
+
+label {
+  display: block;
+  margin-top: 0.75rem;
+}
+
+button { margin-top: 0.75rem; }
+
+input, select, button { max-width: 100%; }
+nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; }
+header, main, footer { padding: 0 1rem; }
